@@ -36,7 +36,7 @@ class Solution {
                 TreeNode cur = queue.poll();
                 if(cur.left!=null) queue.offer(cur.left);
                 if(cur.right!=null) queue.offer(cur.right);
-                list.add(cur.val)l;
+                list.add(cur.val);
             }
             res.add(list);
         }
