@@ -28,7 +28,7 @@ public class RemoveElement {
         int res = 0;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != val) {
-                nums[res++] = nums[i];//这么写的话，output的顺序无所谓了。
+                nums[res++] = nums[i];//如果值不对等的话，res的长度就大一个所以++， =nums[i]就是赋值这个点的值给res++。
             }
         }
         // System.out.println(Arrays.toString(nums));
