@@ -1,5 +1,5 @@
 public class ContainsDuplicateII {
-    //time : O(n) space : O(n)
+    //time : O(n) space : O(n) //
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
