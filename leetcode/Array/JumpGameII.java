@@ -1,3 +1,5 @@
+//time:O(n),space:o(N)
+
 class Solution {
     public int jump(int[] nums) {
         if (nums == null || nums.length < 2) return 0;
